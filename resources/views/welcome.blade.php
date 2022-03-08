@@ -8,5 +8,6 @@
 </head>
 <body>
 <h1><a href="{{ route('comics.index') }}">LISTA FUMETTI</a></h1>
+
 </body>
 </html>
