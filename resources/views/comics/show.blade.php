@@ -3,3 +3,9 @@
 <div><strong>Serie</strong>: {{ $comic->series }}</div>
 <div><strong>Tipo</strong>: {{ $comic->type }}</div>
 
+@include('partials.deleteButton', [
+        'id' => $comic->id,
+        'route' => 'comics.destroy',
+    ])
+
+
